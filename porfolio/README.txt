@@ -1,5 +1,7 @@
 Merk, jobbet mye sammen med Martine Müller, så noe kode og annet kan likne og være inspirert av hverandre.
 
+Må "cd porfolio" før npm run dev
+
 ## Oppgave 1:
     - User accesses website
     - Page has forms for all the parameters a project needs
@@ -8,7 +10,7 @@ Merk, jobbet mye sammen med Martine Müller, så noe kode og annet kan likne og 
     - Server stores the information in the JSON
 
 ## Oppgave 2:
-User accesses website
+	- User accesses website
 	- get request to server about all project names in the database
 	- Website displays all projects descending from the top
 	- User pressess a project name
@@ -25,4 +27,5 @@ User accesses website
     Dato som viser når prosjektet ble ferdig.
     description, for å ha en lengre mer detaljert beskrivelse av prosjektet.
 
-## Oppgave 4: Vennligst sjekk ut assets/wireframe.jpg
+## Oppgave 4:
+	Vennligst sjekk ut assets/wireframe.jpg
