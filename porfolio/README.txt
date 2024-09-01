@@ -29,3 +29,6 @@ Må "cd porfolio" før npm run dev
 
 ## Oppgave 4:
 	Vennligst sjekk ut assets/wireframe.jpg
+
+## Oppgave 9:
+	Vennligst sjekk ut assets/websiteimage.jpg
