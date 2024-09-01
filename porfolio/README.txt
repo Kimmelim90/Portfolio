@@ -1,7 +1,7 @@
 Merk, jobbet mye sammen med Martine Müller, så noe kode og annet kan likne og være inspirert av hverandre.
 
 ## Oppgave 1:
-    - User access website
+    - User accesses website
     - Page has forms for all the parameters a project needs
     - User presses submit
     - Post request to the server with data
