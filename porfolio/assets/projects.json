@@ -1,0 +1,72 @@
+{
+  "Awesome Game": {
+    "id": 1,
+    "short description": "A simple 2d platformer",
+    "date": {
+      "day": 20,
+      "month": 4,
+      "year": 2023
+    },
+    "description": "This is a game inspired by Mario, intended for me to learn how to program a game."
+  },
+  "Useful Budget Program": {
+    "id": 2,
+    "short description": "A budgetting app made with React",
+    "date": {
+      "day": 26,
+      "month": 6,
+      "year": 2024
+    },
+    "description": "This app was intended for me to learn React, and the languages it uses, and to have some value, so that it feels rewarding to work towards it."
+  },
+  "Cool App": {
+    "id": 3,
+    "short description": "A boardgame app, made with Next",
+    "date": {
+      "day": 10,
+      "month": 7,
+      "year": 2024
+    },
+    "description": "This app was intended for me to learn Next, and more about the languages it entails. The boardgame app is to help the boardgame club maintain a list of its boardgames."
+  },
+  "Test": {
+    "id": 1725134573556,
+    "short description": "Test",
+    "date": {
+      "day": "31",
+      "month": "08",
+      "year": "2024"
+    },
+    "description": "Test"
+  },
+  "Mullerinos Project": {
+    "id": 1725177753736,
+    "short description": "The best project",
+    "date": {
+      "day": "15",
+      "month": "09",
+      "year": "2024"
+    },
+    "description": "          The best project"
+  },
+  "Test2": {
+    "id": 1725181607169,
+    "short description": "Test",
+    "date": {
+      "day": "01",
+      "month": "09",
+      "year": "2024"
+    },
+    "description": "Test"
+  },
+  "Test3": {
+    "id": 1725182372912,
+    "short description": "Test4",
+    "date": {
+      "day": "12",
+      "month": "09",
+      "year": "2024"
+    },
+    "description": "          Another test!"
+  }
+}

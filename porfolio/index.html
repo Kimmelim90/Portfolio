@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <script type="module">
+      //https://stackoverflow.com/questions/69888029/how-to-call-a-function-declared-in-a-javascript-module-type-module-from-an-htm
+      import {postjson} from "./scripts/postjson.js"
+      window.postjson = postjson;
+      
+    </script>
+    <header>
+      <h1><u>Kim's Portfolio</u></h1>
+      <nav>
+      <table>
+      <tr>
+        <td><a href="/">Home</a></td>
+        <td><a href="/Projects">All Projects</a></td>
+        <td><a href="/contactinfo">Contact Me</a></td>
+      </tr>
+      </table>
+      </nav>
+      </header>
+      <table>
+      <td>
+      <img src="
+      https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=612x612&w=0&k=20&c=dhV2p1JwmloBTOaGAtaA3AW1KSnjsdMt7-U_3EZElZ0=" alt="Picture of me"
+      style="width:300px;height:300px;" />
+      </td>
+      <td>
+      <p>
+      Kim is really cool and awesome, hire me!
+      </p>
+      </td>
+      <h2><u>Curated Projects</u></h2>
+      <ul>
+      <div id="projectsDiv"></div>
+      <script type="module" src="/scripts/projects.js"></script>
+      </ul>
+      <h3><u>New Project</u></h3>
+      <form onsubmit="postjson(event, this)">
+        <label>
+          Title:
+          <input class="project-info"
+          type="text"
+          name="title"
+          placeholder="Enter a title..."/>
+          
+        </label>
+        <br/>
+        <label>
+          Short Description:
+          <input class="project-info"
+          type="text"
+          name="shortDescription"
+          placeholder="Summarize the project..."/>
+        </label>
+        <br/>
+        <label>
+          Date:
+          <input class="project-info"
+          type="date"
+          name="date"/>
+        </label>
+        <br/>
+        <label>
+          Description:
+          <br/>
+          <textarea 
+          rows="5" 
+          cols="80" 
+          id="description"
+          name="description">
+          </textarea>
+        </label>
+        <br/>
+        <input type="submit">
+      </form>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
