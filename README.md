@@ -10,7 +10,7 @@ Må "cd porfolio" før npm run dev
     - Server stores the information in the JSON
 
 ## Oppgave 2:
-User accesses website
+	- User accesses website
 	- get request to server about all project names in the database
 	- Website displays all projects descending from the top
 	- User pressess a project name
@@ -27,4 +27,5 @@ User accesses website
     Dato som viser når prosjektet ble ferdig.
     description, for å ha en lengre mer detaljert beskrivelse av prosjektet.
 
-## Oppgave 4: Vennligst sjekk ut assets/wireframe.jpg
+## Oppgave 4:
+	Vennligst sjekk ut assets/wireframe.jpg
