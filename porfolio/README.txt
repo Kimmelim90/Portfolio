@@ -1,4 +1,4 @@
-Merk, jobbet mye sammen med Martine Müller, så noe kode og annet kan likne og være inspirert av hverandre.
+Merk, jobbet mye sammen med Martine Müller og Phillip Nguyen, så noe kode og annet kan likne og være inspirert av hverandre.
 
 Må "cd porfolio" før npm run dev
 

@@ -3,7 +3,6 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { serveStatic } from "@hono/node-server/serve-static";
 import {readFile, writeFile} from 'node:fs/promises'
-import {appendFile} from 'node:fs/promises'
 
 
 const app = new Hono();
@@ -23,7 +22,7 @@ app.get("/json", async (c) => {
   }
 });
 
-//Working together with Martine Müller, which might lead to similar code
+//Working together with Martine Müller and Phillip Nguyen, which might lead to similar code
 app.post("/postjson", async (c) => {
   const fileName = "projects.json";
   let tempdata;
@@ -38,13 +37,10 @@ app.post("/postjson", async (c) => {
 
   // Setting body to be the JSON Data from the request
   const body = await c.req.json();
-
   // Making a new key to the JSON file, using the data from the form
   tempdata[Object.keys(body)[0]] = body[Object.keys(body)[0]];
-
   // Convert the new Data to a JSON object
   const newData = JSON.stringify(tempdata, null, 2);
-
   // Writing the New Data to the JSON File
   try {
     await writeFile("assets/projects.json", newData, "utf-8");

@@ -28,45 +28,5 @@
       "year": 2024
     },
     "description": "This app was intended for me to learn Next, and more about the languages it entails. The boardgame app is to help the boardgame club maintain a list of its boardgames."
-  },
-  "Test": {
-    "id": 1725134573556,
-    "short description": "Test",
-    "date": {
-      "day": "31",
-      "month": "08",
-      "year": "2024"
-    },
-    "description": "Test"
-  },
-  "Mullerinos Project": {
-    "id": 1725177753736,
-    "short description": "The best project",
-    "date": {
-      "day": "15",
-      "month": "09",
-      "year": "2024"
-    },
-    "description": "          The best project"
-  },
-  "Test2": {
-    "id": 1725181607169,
-    "short description": "Test",
-    "date": {
-      "day": "01",
-      "month": "09",
-      "year": "2024"
-    },
-    "description": "Test"
-  },
-  "Test3": {
-    "id": 1725182372912,
-    "short description": "Test4",
-    "date": {
-      "day": "12",
-      "month": "09",
-      "year": "2024"
-    },
-    "description": "          Another test!"
   }
 }

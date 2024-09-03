@@ -12,6 +12,7 @@
       import {postjson} from "./scripts/postjson.js"
       window.postjson = postjson;
       
+      
     </script>
     <header>
       <h1><u>Kim's Portfolio</u></h1>
@@ -42,7 +43,7 @@
       <script type="module" src="/scripts/projects.js"></script>
       </ul>
       <h3><u>New Project</u></h3>
-      <form onsubmit="postjson(event, this)">
+      <form onsubmit="postjson(event, this, window)">
         <label>
           Title:
           <input class="project-info"

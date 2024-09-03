@@ -1,5 +1,5 @@
 export async function postjson(event, form){
-
+    event.preventDefault();
     const formData = new FormData(form);
 
     const title = formData.get("title");
@@ -25,18 +25,5 @@ export async function postjson(event, form){
         }
     })
     });
-
-  const projectData = {
-  [title]: {
-    id: Date.now(),  // Use a unique id based on the current timestamp
-    "short description": shortDescription,
-    date: {
-      day: parseInt(day),
-      month: parseInt(month),
-      year: parseInt(year)
-    },
-    description: description
-  }
-};
-window.location.replace("/");    
+    window.location.replace("/");
 }
